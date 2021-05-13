@@ -1,0 +1,20 @@
+{
+  "name": "tsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "tsc --build && rmdir /Q /S ./build",
+    "watch": "tsc --watch"
+  },
+  "author": "sable",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3"
+  }
+}
